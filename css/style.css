@@ -193,7 +193,7 @@ h6 {
 	width: 200px;
 	border: none;
   padding: 10px;
-  margin-left: 30%;
+  margin-left: 20%;
   color: #fff;
   text-align: center;
 	border-radius: 4px;
@@ -566,8 +566,8 @@ h6 {
 }
 #about .img {
   height: 500px;
-  width: 400px;
-  padding: 50px;
+  width: 500px;
+  padding: 30px;
 }
 
 /* Services Section
