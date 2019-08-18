@@ -160,8 +160,8 @@ h6 {
 
 #intro {
   position: relative;
-  padding: 260px 10px; 
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(250, 249, 249, 0.3)), color-stop(75%, rgba(255, 255, 255, 0.7)), to(#ffffff)), url("/img/1.jpg");
+  padding: 260px 100px; 
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(250, 249, 249, 0.3)), color-stop(100%, rgba(255, 255, 255, 0.7)), to(#ffffff)), url("/img/1.jpg");
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(15, 14, 14, 0.7) 75%, #000000 100%), url("/img/1.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -172,7 +172,7 @@ h6 {
 }
 
 #intro .intro-img {
-  width: 50%;
+  width: 100%;
   float: right;
 }
 
@@ -193,7 +193,7 @@ h6 {
 	width: 200px;
 	border: none;
   padding: 10px;
-  margin-left: 38%;
+  margin-left: 30%;
   color: #fff;
   text-align: center;
 	border-radius: 4px;
@@ -565,8 +565,9 @@ h6 {
   font-size: 24px;
 }
 #about .img {
-  height: 500px;
-  width: 370px;
+  height: 300px;
+  width: 250px;
+  padding: 30px;
 }
 
 /* Services Section
