@@ -14,7 +14,7 @@
 		<div class="lowin-wrapper">
 			<div class="lowin-box lowin-login">
 				<div class="lowin-box-inner">
-					<form>
+					<form action="login.php" method="POST">
 						<p>Log in to continue :)</p>
 						<div class="lowin-group">
 							<label>Email <a href="#" class="login-back-link">Sign in?</a></label>
@@ -24,7 +24,7 @@
 							<label>Password <a href="#" class="forgot-link">Forgot Password?</a></label>
 							<input type="password" name="password" autocomplete="current-password" class="lowin-input">
 						</div>
-						<a href='./index.html' class="lowin-btn login-btn">
+						<a href='./index.html' class="lowin-btn login-btn" name="submit">
 							Log In?
 						</a>
 
@@ -37,7 +37,7 @@
 
 			<div class="lowin-box lowin-register">
 				<div class="lowin-box-inner">
-					<form>
+					<form action="registration.php" method="POST">
 						<p>Let's create your account :)</p>
 						<div class="lowin-group">
 							<label>Name</label>
@@ -45,19 +45,19 @@
 						</div>
 						<div class="lowin-group">
 							<label>Email</label>
-							<input type="email" autocomplete="email" name="email" class="lowin-input">
+							<input type="email" autocomplete="email" name="email_registration" class="lowin-input">
 						</div>
 						<div class="lowin-group">
 							<label>Password</label>
-							<input type="password" name="password" autocomplete="current-password" class="lowin-input">
+							<input type="password" name="password_registration" autocomplete="current-password" class="lowin-input">
 						</div>
 						<div class="lowin-group">
 							<label>Contact Number</label>
-							<input type="number" name="Contact Number" autocomplete="Contact Number" class="lowin-input">
+							<input type="number" name="contact" autocomplete="Contact Number" class="lowin-input">
 						</div>
 						<div class="lowin-group">
 							<label>Want to join as?
-								<select class="lowin-input">
+								<select class="lowin-input" name='option'>
 									<option>Student</option>
 									<option>Teacher</option>
 									<option>Plumber</option>
@@ -71,7 +71,7 @@
 							</label>
 						</div>
 						
-						<a href='./index.html' class="lowin-btn">
+						<a href='./index.html' class="lowin-btn" name="submit">
 							Sign Up?
 						</a>
 
